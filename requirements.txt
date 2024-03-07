@@ -9,4 +9,3 @@ docx
 PyPDF2
 langchain_openai
 langchain_community
-exceptions
