@@ -4,7 +4,6 @@ import anthropic
 from langchain.agents import initialize_agent, AgentType  
 from langchain.callbacks import StreamlitCallbackHandler 
 from langchain.chat_models import ChatOpenAI 
-from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import DeepLake #docs: https://api.python.langchain.com/en/v0.0.343/vectorstores/langchain.vectorstores.deeplake.DeepLake.html
 from langchain.text_splitter import RecursiveCharacterTextSplitter, CharacterTextSplitter
 from docx import Document
