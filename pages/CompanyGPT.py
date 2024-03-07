@@ -6,7 +6,7 @@ from langchain.callbacks import StreamlitCallbackHandler
 from langchain.chat_models import ChatOpenAI 
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import DeepLake #docs: https://api.python.langchain.com/en/v0.0.343/vectorstores/langchain.vectorstores.deeplake.DeepLake.html
-from langchain.text_splitter import RecursiveCharacterTextSplitter, CharacterTextSplitter, Language
+from langchain.text_splitter import RecursiveCharacterTextSplitter, CharacterTextSplitter
 from docx import Document
 import PyPDF2
 from langchain_openai import OpenAI
