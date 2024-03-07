@@ -1,0 +1,3 @@
+When you want to install new packages, 
+add them to the requirements.txt,
+press f1: search for: "Codespaces:rebuild containers" and execute
